@@ -1,0 +1,605 @@
+<TXLife xmlns="http://ACORD.org/Standards/Life/2" Version="2.37.00">
+   <TXLifeRequest>
+      <TransRefGUID>AB57BD93-908D-4F32-B9A2-85C77FD43695</TransRefGUID>
+      <TransType tc="1125">1125</TransType>
+      <OLifE>
+         <SourceInfo>
+            <CreationDate>2023-05-18</CreationDate>
+            <CreationTime>03:25:07.497</CreationTime>
+            <SourceInfoName>UWPro</SourceInfoName>
+            <SourceInfoComment>Sapiens</SourceInfoComment>
+         </SourceInfo>
+         <Holding id="HOLDING_1895988733">
+            <Policy>
+               <PolNumber>POL05172301</PolNumber>
+               <LineOfBusiness tc="1">Life</LineOfBusiness>
+               <CarrierCode>BASE</CarrierCode>
+               <ProductType tc="2">Term</ProductType>
+               <PolicyStatus tc="8">Pending</PolicyStatus>
+               <IssueNation tc="1">United States Of America</IssueNation>
+               <Jurisdiction tc="17">Illinois</Jurisdiction>
+               <PaymentMode tc="1">Annual</PaymentMode>
+               <PaymentMethod tc="7">Electronic Funds Transfer</PaymentMethod>
+               <AccountNumber>1234123412341567</AccountNumber>
+               <RoutingNumber>021000021</RoutingNumber>
+               <BankAcctType tc="1">Savings</BankAcctType>
+               <PaymentDraftDay>5</PaymentDraftDay>
+               <BankName>Bank of America</BankName>
+               <Life>
+                  <Coverage id="COVERAGE_1">
+                     <PlanName>BASE10 - Base 10 Year Term Life</PlanName>
+                     <ShortName>BASE10</ShortName>
+                     <ProductCode>BASE10</ProductCode>
+                     <LifeCovStatus tc="8">Pending</LifeCovStatus>
+                     <IndicatorCode tc="1">Base</IndicatorCode>
+                     <CurrentAmt>4000000</CurrentAmt>
+                     <InitCovAmt>4000000</InitCovAmt>
+                     <CovOption>
+                        <CovOptionStatus tc="8">Pending</CovOptionStatus>
+                        <LifeCovOptTypeCode tc="2">ADB</LifeCovOptTypeCode>
+                        <OptionAmt>4000000</OptionAmt>
+                     </CovOption>
+                     <CovOption>
+                        <CovOptionStatus tc="8">Pending</CovOptionStatus>
+                        <LifeCovOptTypeCode tc="17">WP</LifeCovOptTypeCode>
+                        <OptionAmt>0</OptionAmt>
+                     </CovOption>
+                     <LifeParticipant PartyID="PARTY_1895988726">
+                        <LifeParticipantRoleCode tc="1">Primary Insured</LifeParticipantRoleCode>
+                        <TobaccoPremiumBasis tc="2">Smoker</TobaccoPremiumBasis>
+                        <UnderwritingClass tc="2147483647">7 -</UnderwritingClass>
+                     </LifeParticipant>
+                     <LifeParticipant PartyID="PARTY_1895988729">
+                        <LifeParticipantRoleCode tc="9">Beneficiary - Contingent</LifeParticipantRoleCode>
+                        <BeneficiaryPercentDistribution>100.00</BeneficiaryPercentDistribution>
+                        <IrrevokableInd tc="0">False</IrrevokableInd>
+                     </LifeParticipant>
+                     <LifeParticipant PartyID="PARTY_1895988730">
+                        <LifeParticipantRoleCode tc="7">Beneficiary - Primary</LifeParticipantRoleCode>
+                        <BeneficiaryPercentDistribution>100.00</BeneficiaryPercentDistribution>
+                        <IrrevokableInd tc="0">False</IrrevokableInd>
+                        <BeneficiaryRoleCode tc="7">EMPLOYER</BeneficiaryRoleCode>
+                     </LifeParticipant>
+                     <KeyedValue>
+                        <KeyName>HSA</KeyName>
+                        <KeyValue>No</KeyValue>
+                     </KeyedValue>
+                     <KeyedValue>
+                        <KeyName>RateClassQuoted</KeyName>
+                        <KeyValue>7 -</KeyValue>
+                     </KeyedValue>
+                     <KeyedValue>
+                        <KeyName>PASTCOVERAGE</KeyName>
+                        <KeyValue>No</KeyValue>
+                     </KeyedValue>
+                     <KeyedValue>
+                        <KeyName>Exchange1035</KeyName>
+                        <KeyValue>No</KeyValue>
+                     </KeyedValue>
+                     <KeyedValue>
+                        <KeyName>Reg60</KeyName>
+                        <KeyValue>No</KeyValue>
+                     </KeyedValue>
+                     <OLifEExtension VendorCode="253">
+                        <PremiumType />
+                     </OLifEExtension>
+                  </Coverage>
+               </Life>
+               <ApplicationInfo>
+                  <TrackingID />
+                  <ApplicationType tc="2147483647" />
+                  <HOReceiptDate>2018-12-18</HOReceiptDate>
+                  <CWAAmt>250.00</CWAAmt>
+                  <SignedDate>2018-12-12</SignedDate>
+                  <OLifEExtension VendorCode="253">
+                     <AgentSignedDate>2018-12-12</AgentSignedDate>
+                  </OLifEExtension>
+               </ApplicationInfo>
+               <RequirementInfo xmlns="" id="Req_1895987900" AppliesToPartyID="PARTY_1895988726">
+                  <ReqCode tc="2147483647">UWREV</ReqCode>
+                  <RequirementInfoSysKey SystemCode="UWPro" VendorCode="253">1895987900</RequirementInfoSysKey>
+                  <RequirementInfoUniqueID>1895987900</RequirementInfoUniqueID>
+                  <HORequirementRefID>UWREV</HORequirementRefID>
+                  <RestrictIssueCode tc="2">Yes</RestrictIssueCode>
+                  <ReqStatus tc="1">Pending</ReqStatus>
+                  <KeyedValue>
+                     <KeyName>CreateDate</KeyName>
+                     <KeyValue>2023-05-17T14:27:43Z</KeyValue>
+                  </KeyedValue>
+               </RequirementInfo>
+               <RequirementInfo xmlns="" id="Req_1895987905" AppliesToPartyID="PARTY_1895988726">
+                  <ReqCode tc="21">MIB</ReqCode>
+                  <RequirementInfoSysKey SystemCode="UWPro" VendorCode="253">1895987905</RequirementInfoSysKey>
+                  <RequirementInfoUniqueID>1895987905</RequirementInfoUniqueID>
+                  <HORequirementRefID>MIB</HORequirementRefID>
+                  <RestrictIssueCode tc="2">Yes</RestrictIssueCode>
+                  <ReqStatus tc="1">Pending</ReqStatus>
+                  <ProviderServiceCode>21</ProviderServiceCode>
+                  <KeyedValue>
+                     <KeyName>CreateDate</KeyName>
+                     <KeyValue>2023-05-17T14:27:43Z</KeyValue>
+                  </KeyedValue>
+               </RequirementInfo>
+               <RequirementInfo xmlns="" id="Req_1895987908" AppliesToPartyID="PARTY_1895988726">
+                  <ReqCode tc="137">TELEA</ReqCode>
+                  <RequirementInfoSysKey SystemCode="UWPro" VendorCode="253">1895987908</RequirementInfoSysKey>
+                  <RequirementInfoUniqueID>1895987908</RequirementInfoUniqueID>
+                  <HORequirementRefID>TELEA</HORequirementRefID>
+                  <RestrictIssueCode tc="2">Yes</RestrictIssueCode>
+                  <ReqStatus tc="1">Pending</ReqStatus>
+                  <ProviderServiceCode>137</ProviderServiceCode>
+                  <KeyedValue>
+                     <KeyName>CreateDate</KeyName>
+                     <KeyValue>2023-05-17T14:27:43Z</KeyValue>
+                  </KeyedValue>
+               </RequirementInfo>
+               <RequirementInfo xmlns="" id="Req_1895990390" AppliesToPartyID="PARTY_1895988726">
+                  <ReqCode tc="3">BP HOS</ReqCode>
+                  <RequirementInfoSysKey SystemCode="UWPro" VendorCode="253">1895990390</RequirementInfoSysKey>
+                  <RequirementInfoUniqueID>1895990390</RequirementInfoUniqueID>
+                  <HORequirementRefID>BP HOS</HORequirementRefID>
+                  <RequirementDetails>Guardian Name: William Smith</RequirementDetails>
+                  <RestrictIssueCode tc="2">Yes</RestrictIssueCode>
+                  <ReqStatus tc="5">Satisfied</ReqStatus>
+                  <RequestedDate>2023-05-18</RequestedDate>
+                  <FulfilledDate>2023-05-18</FulfilledDate>
+                  <ProviderServiceCode>3</ProviderServiceCode>
+                  <KeyedValue>
+                     <KeyName>CreateDate</KeyName>
+                     <KeyValue>2023-05-18T02:36:22Z</KeyValue>
+                  </KeyedValue>
+               </RequirementInfo>
+               <KeyedValue>
+                  <KeyName>MarketingKeyIsValidFlag</KeyName>
+                  <KeyValue>0</KeyValue>
+               </KeyedValue>
+               <KeyedValue>
+                  <KeyName>AgentSplitOverride</KeyName>
+                  <KeyValue>No</KeyValue>
+               </KeyedValue>
+               <KeyedValue>
+                  <KeyName>TrialApplication</KeyName>
+                  <KeyValue>No</KeyValue>
+               </KeyedValue>
+               <OLifEExtension VendorCode="253" />
+            </Policy>
+         </Holding>
+         <Holding id="HOLDING_INFORCE_1">
+            <Policy>
+               <PolNumber>12349800</PolNumber>
+               <CarrierCode>Max Life</CarrierCode>
+               <PolicyValue>20000000</PolicyValue>
+               <KeyedValue>
+                  <KeyName>Status</KeyName>
+                  <KeyValue>In-Force</KeyValue>
+               </KeyedValue>
+               <KeyedValue>
+                  <KeyName>CoverageType</KeyName>
+                  <KeyValue>Life</KeyValue>
+               </KeyedValue>
+            </Policy>
+         </Holding>
+         <Party id="PARTY_TA001">
+            <PartyTypeCode tc="1">Person</PartyTypeCode>
+            <PartyKey>TA001</PartyKey>
+            <PartySysKey>1895988737</PartySysKey>
+            <FullName>Johney Agent</FullName>
+            <GovtID />
+            <Person>
+               <FirstName>Johney</FirstName>
+               <MiddleName>R</MiddleName>
+               <LastName>Agent</LastName>
+               <OLifEExtension VendorCode="253" />
+            </Person>
+            <Address>
+               <AddressTypeCode tc="2">Business</AddressTypeCode>
+               <Line1>700 Golf Road</Line1>
+               <Line2>Suite 245</Line2>
+               <City>Arlington Heights</City>
+               <AddressStateTC tc="17">Illinois</AddressStateTC>
+               <Zip>60004</Zip>
+               <AddressCountryTC tc="1">United States of America</AddressCountryTC>
+            </Address>
+            <Address>
+               <AddressTypeCode tc="17">Mailing</AddressTypeCode>
+               <Line1>700 Golf Road</Line1>
+               <Line2>Suite 245</Line2>
+               <City>Arlington Heights</City>
+               <AddressStateTC tc="17">Illinois</AddressStateTC>
+               <Zip>60004</Zip>
+               <AddressCountryTC tc="1">United States of America</AddressCountryTC>
+            </Address>
+            <Phone>
+               <PhoneTypeCode tc="19">Fax</PhoneTypeCode>
+               <AreaCode />
+               <DialNumber />
+            </Phone>
+            <Phone>
+               <PhoneTypeCode tc="2">Business</PhoneTypeCode>
+               <AreaCode>847</AreaCode>
+               <DialNumber>9057899</DialNumber>
+               <PrefPhone tc="0">FALSE</PrefPhone>
+            </Phone>
+            <Client>
+               <PrefLanguage tc="2147483647" />
+            </Client>
+            <KeyedValue>
+               <KeyName>AgentRelatedToInsured</KeyName>
+               <KeyValue>No</KeyValue>
+            </KeyedValue>
+            <KeyedValue>
+               <KeyName>ClientId</KeyName>
+               <KeyValue>TA001</KeyValue>
+            </KeyedValue>
+         </Party>
+         <Party id="PARTY_TA002">
+            <PartyTypeCode tc="1">Person</PartyTypeCode>
+            <PartyKey>TA002</PartyKey>
+            <PartySysKey>1895988738</PartySysKey>
+            <FullName>John Agent</FullName>
+            <GovtID />
+            <Person>
+               <FirstName>John</FirstName>
+               <MiddleName>R</MiddleName>
+               <LastName>Agent</LastName>
+               <OLifEExtension VendorCode="253" />
+            </Person>
+            <Address>
+               <AddressTypeCode tc="2">Business</AddressTypeCode>
+               <Line1>700 Golf Road</Line1>
+               <Line2>Suite 245</Line2>
+               <City>Arlington Heights</City>
+               <AddressStateTC tc="17">Illinois</AddressStateTC>
+               <Zip>60004</Zip>
+               <AddressCountryTC tc="1">United States of America</AddressCountryTC>
+            </Address>
+            <Address>
+               <AddressTypeCode tc="17">Mailing</AddressTypeCode>
+               <Line1>700 Golf Road</Line1>
+               <Line2>Suite 245</Line2>
+               <City>Arlington Heights</City>
+               <AddressStateTC tc="17">Illinois</AddressStateTC>
+               <Zip>60004</Zip>
+               <AddressCountryTC tc="1">United States of America</AddressCountryTC>
+            </Address>
+            <Phone>
+               <PhoneTypeCode tc="19">Fax</PhoneTypeCode>
+               <AreaCode />
+               <DialNumber />
+            </Phone>
+            <Phone>
+               <PhoneTypeCode tc="2">Business</PhoneTypeCode>
+               <AreaCode>847</AreaCode>
+               <DialNumber>9057899</DialNumber>
+               <PrefPhone tc="0">FALSE</PrefPhone>
+            </Phone>
+            <Client>
+               <PrefLanguage tc="2147483647" />
+            </Client>
+            <KeyedValue>
+               <KeyName>AgentRelatedToInsured</KeyName>
+               <KeyValue>No</KeyValue>
+            </KeyedValue>
+            <KeyedValue>
+               <KeyName>ClientId</KeyName>
+               <KeyValue>TA002</KeyValue>
+            </KeyedValue>
+         </Party>
+         <Party id="PARTY_1895988726">
+            <PartyTypeCode tc="1">Person</PartyTypeCode>
+            <PartySysKey>1895988739</PartySysKey>
+            <PartySysKey>1895988726</PartySysKey>
+            <FullName>Luna1 Minor1</FullName>
+            <GovtID>237121706</GovtID>
+            <GovtIDTC tc="1">Social Security Number US</GovtIDTC>
+            <ResidenceState tc="17">Illinois</ResidenceState>
+            <ResidenceCountry tc="1">United States</ResidenceCountry>
+            <Person>
+               <FirstName>Luna1</FirstName>
+               <MiddleName>S</MiddleName>
+               <LastName>Minor1</LastName>
+               <MarStat tc="1">Married</MarStat>
+               <Gender tc="2">Female</Gender>
+               <BirthDate>2013-09-19</BirthDate>
+               <Citizenship tc="1">United States of America</Citizenship>
+               <OccupationType tc="2147483647">CONSULTANT</OccupationType>
+               <EstSalary>380000</EstSalary>
+               <EstGrossAnnualOtherIncome>90000</EstGrossAnnualOtherIncome>
+               <SmokerStat tc="3">Current</SmokerStat>
+               <Height2>
+                  <MeasureUnits tc="2">US System Standard</MeasureUnits>
+                  <MeasureValue>71</MeasureValue>
+               </Height2>
+               <Weight2>
+                  <MeasureUnits tc="2">US System Standard</MeasureUnits>
+                  <MeasureValue>146</MeasureValue>
+               </Weight2>
+               <DriversLicenseNum>D103809</DriversLicenseNum>
+               <DriversLicenseState tc="6">California</DriversLicenseState>
+               <BirthCountry tc="1">United States of America</BirthCountry>
+               <BirthJurisdictionTC tc="54">U.S. Virgin Islands</BirthJurisdictionTC>
+               <OLifEExtension VendorCode="253">
+                  <NetWorth>105000000</NetWorth>
+               </OLifEExtension>
+            </Person>
+            <Address>
+               <AddressTypeCode tc="1">Residence</AddressTypeCode>
+               <Line1>3701 Algonquin Road</Line1>
+               <Line2>Apt # 4500</Line2>
+               <City>Rolling Meadows</City>
+               <AddressStateTC tc="17">Illinois</AddressStateTC>
+               <Zip>60008</Zip>
+               <AddressCountryTC tc="1">United States of America</AddressCountryTC>
+            </Address>
+            <Address>
+               <AddressTypeCode tc="17">Mailing</AddressTypeCode>
+               <Line1>3701 Algonquin Road</Line1>
+               <Line2>Apt # 4500</Line2>
+               <City>Rolling Meadows</City>
+               <AddressStateTC tc="17">Illinois</AddressStateTC>
+               <Zip>60008</Zip>
+               <AddressCountryTC tc="1">United States of America</AddressCountryTC>
+            </Address>
+            <Phone>
+               <PhoneTypeCode tc="12">Mobile</PhoneTypeCode>
+               <AreaCode>847</AreaCode>
+               <DialNumber>9027405</DialNumber>
+            </Phone>
+            <Phone>
+               <PhoneTypeCode tc="1">Home</PhoneTypeCode>
+               <AreaCode>847</AreaCode>
+               <DialNumber>3054530</DialNumber>
+               <PrefPhone tc="0">FALSE</PrefPhone>
+            </Phone>
+            <Phone>
+               <PhoneTypeCode tc="2">Business</PhoneTypeCode>
+               <AreaCode>847</AreaCode>
+               <DialNumber>9565700</DialNumber>
+               <Ext>5727</Ext>
+               <PrefPhone tc="0">FALSE</PrefPhone>
+            </Phone>
+            <EMailAddress>
+               <AddrLine>ashutosh.kumar@sapiens.com</AddrLine>
+            </EMailAddress>
+            <KeyedValue>
+               <KeyName>HIPAAConsent</KeyName>
+               <KeyValue>Yes</KeyValue>
+            </KeyedValue>
+         </Party>
+         <Party id="PARTY_1895988727">
+            <PartyTypeCode tc="1">Person</PartyTypeCode>
+            <FullName>Tony Johnson</FullName>
+            <GovtID>774123135</GovtID>
+            <GovtIDTC tc="1">Social Security Number US</GovtIDTC>
+            <ResidenceState tc="17">Illinois</ResidenceState>
+            <ResidenceCountry tc="1">United States</ResidenceCountry>
+            <Person>
+               <FirstName>Tony</FirstName>
+               <MiddleName>R</MiddleName>
+               <LastName>Johnson</LastName>
+               <BirthDate>1955-10-27</BirthDate>
+               <OLifEExtension VendorCode="253" />
+            </Person>
+            <Address>
+               <AddressTypeCode tc="1">Residence</AddressTypeCode>
+               <Line1>707 Golf Road</Line1>
+               <Line2>Apt # 2145</Line2>
+               <City>Arlington Heights</City>
+               <AddressStateTC tc="17">Illinois</AddressStateTC>
+               <Zip>60005</Zip>
+               <AddressCountryTC tc="1">United States of America</AddressCountryTC>
+            </Address>
+            <Address>
+               <AddressTypeCode tc="17">Mailing</AddressTypeCode>
+               <Line1>707 Golf Road</Line1>
+               <Line2>Apt # 2145</Line2>
+               <City>Arlington Heights</City>
+               <AddressStateTC tc="17">Illinois</AddressStateTC>
+               <Zip>60005</Zip>
+               <AddressCountryTC tc="1">United States of America</AddressCountryTC>
+            </Address>
+         </Party>
+         <Party id="PARTY_1895988729">
+            <PartyTypeCode tc="1">Person</PartyTypeCode>
+            <FullName>Lar John</FullName>
+            <GovtID>500392666</GovtID>
+            <Person>
+               <FirstName>Lar</FirstName>
+               <MiddleName>S</MiddleName>
+               <LastName>John</LastName>
+               <BirthDate>2008-09-25</BirthDate>
+               <OLifEExtension VendorCode="253" />
+            </Person>
+         </Party>
+         <Party id="PARTY_1895988730">
+            <PartyTypeCode tc="2">Organization</PartyTypeCode>
+            <FullName>test</FullName>
+            <Organization>
+               <TrustType>Company</TrustType>
+            </Organization>
+            <GovtID>435435435</GovtID>
+            <GovtIDTC tc="8">US Employer Identification Number</GovtIDTC>
+            <Address>
+               <AddressTypeCode tc="2">Business</AddressTypeCode>
+               <Line1>address line 1</Line1>
+               <Line2>added</Line2>
+               <City>Mumbsai</City>
+               <AddressStateTC tc="4">Arizona</AddressStateTC>
+               <Zip>65615</Zip>
+               <AddressCountryTC tc="1">United States of America</AddressCountryTC>
+            </Address>
+            <Address>
+               <AddressTypeCode tc="1">Residence</AddressTypeCode>
+               <Line1>address line 1</Line1>
+               <Line2>added</Line2>
+               <City>Mumbsai</City>
+               <AddressStateTC tc="4">Arizona</AddressStateTC>
+               <Zip>65615</Zip>
+               <AddressCountryTC tc="1">United States of America</AddressCountryTC>
+            </Address>
+            <Address>
+               <AddressTypeCode tc="17">Mailing</AddressTypeCode>
+               <Line1>address line 1</Line1>
+               <Line2>added</Line2>
+               <City>Mumbsai</City>
+               <AddressStateTC tc="4">Arizona</AddressStateTC>
+               <Zip>65615</Zip>
+               <AddressCountryTC tc="1">United States of America</AddressCountryTC>
+            </Address>
+            <Address>
+               <AddressTypeCode tc="17">Mailing</AddressTypeCode>
+               <Line1>address line 1</Line1>
+               <Line2>added</Line2>
+               <City>Mumbsai</City>
+               <AddressStateTC tc="4">Arizona</AddressStateTC>
+               <Zip>65615</Zip>
+               <AddressCountryTC tc="1">United States of America</AddressCountryTC>
+            </Address>
+         </Party>
+         <Party id="PARTY_1895988732">
+            <PartyTypeCode tc="2">Organization</PartyTypeCode>
+            <FullName>Smith</FullName>
+            <Organization>
+               <TrustType>GUARDIAN</TrustType>
+               <EstabDate>1978-04-19</EstabDate>
+            </Organization>
+            <GovtID>879125972</GovtID>
+            <GovtIDTC tc="8">US Employer Identification Number</GovtIDTC>
+            <Address>
+               <AddressTypeCode tc="2">Business</AddressTypeCode>
+               <Line1>123 Golf Road</Line1>
+               <City>Rolling Meadows</City>
+               <AddressStateTC tc="17">Illinois</AddressStateTC>
+               <Zip>60008</Zip>
+               <AddressCountryTC tc="1">United States of America</AddressCountryTC>
+            </Address>
+            <Address>
+               <AddressTypeCode tc="1">Residence</AddressTypeCode>
+               <Line1>123 Golf Road</Line1>
+               <City>Rolling Meadows</City>
+               <AddressStateTC tc="17">Illinois</AddressStateTC>
+               <Zip>60008</Zip>
+               <AddressCountryTC tc="1">United States of America</AddressCountryTC>
+            </Address>
+            <Address>
+               <AddressTypeCode tc="17">Mailing</AddressTypeCode>
+               <Line1>123 Golf Road</Line1>
+               <City>Rolling Meadows</City>
+               <AddressStateTC tc="17">Illinois</AddressStateTC>
+               <Zip>60008</Zip>
+               <AddressCountryTC tc="1">United States of America</AddressCountryTC>
+            </Address>
+            <Address>
+               <AddressTypeCode tc="17">Mailing</AddressTypeCode>
+               <Line1>123 Golf Road</Line1>
+               <City>Rolling Meadows</City>
+               <AddressStateTC tc="17">Illinois</AddressStateTC>
+               <Zip>60008</Zip>
+               <AddressCountryTC tc="1">United States of America</AddressCountryTC>
+            </Address>
+            <Phone>
+               <PhoneTypeCode tc="1">Home</PhoneTypeCode>
+               <AreaCode>847</AreaCode>
+               <DialNumber>3054530</DialNumber>
+               <PrefPhone tc="0">FALSE</PrefPhone>
+            </Phone>
+            <EMailAddress>
+               <AddrLine>william.smith@email.com</AddrLine>
+            </EMailAddress>
+         </Party>
+         <Party id="EMPLOYER_1895988726">
+            <FullName>test</FullName>
+            <Address>
+               <Line1>address line 1 added , Mumbsai, AZ 65615</Line1>
+            </Address>
+            <KeyedValue>
+               <KeyName>JOBDUTIES</KeyName>
+               <KeyValue>Management consultancy</KeyValue>
+            </KeyedValue>
+            <KeyedValue>
+               <KeyName>YEARSATEMPLOYER</KeyName>
+               <KeyValue>10</KeyValue>
+            </KeyedValue>
+         </Party>
+         <Party id="SA_9845705">
+            <PartyTypeCode tc="1">Person</PartyTypeCode>
+            <FullName>Kumarr Aditya</FullName>
+            <Person>
+               <FirstName>Kumarr</FirstName>
+               <MiddleName />
+               <LastName>Aditya</LastName>
+            </Person>
+            <OLifEExtension VendorCode="253">
+               <LoginId>Aditya</LoginId>
+            </OLifEExtension>
+         </Party>
+         <Party id="UW_1292348705">
+            <PartyTypeCode tc="1">Person</PartyTypeCode>
+            <FullName>Test Prudhvi</FullName>
+            <Person>
+               <FirstName>Test</FirstName>
+               <MiddleName />
+               <LastName>Prudhvi</LastName>
+            </Person>
+            <OLifEExtension VendorCode="253">
+               <LoginId>testp</LoginId>
+            </OLifEExtension>
+         </Party>
+         <Relation id="N10B80" RelatedObjectID="SA_9845705" OriginatingObjectID="HOLDING_1895988733">
+            <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+            <RelatedObjectType tc="6">Party</RelatedObjectType>
+            <RelationRoleCode tc="235">Case Manager</RelationRoleCode>
+         </Relation>
+         <Relation id="N10B94" RelatedObjectID="UW_1292348705" OriginatingObjectID="HOLDING_1895988733">
+            <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+            <RelatedObjectType tc="6">Party</RelatedObjectType>
+            <RelationRoleCode tc="112">Underwriter</RelationRoleCode>
+         </Relation>
+         <Relation id="N100D9" RelatedObjectID="PARTY_TA001" OriginatingObjectID="HOLDING_1895988733">
+            <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+            <RelatedObjectType tc="6">Party</RelatedObjectType>
+            <RelationRoleCode tc="11">Agent</RelationRoleCode>
+            <InterestPercent>75</InterestPercent>
+         </Relation>
+         <Relation id="N100ED" RelatedObjectID="PARTY_TA002" OriginatingObjectID="HOLDING_1895988733">
+            <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+            <RelatedObjectType tc="6">Party</RelatedObjectType>
+            <RelationRoleCode tc="11">Agent</RelationRoleCode>
+            <InterestPercent>25</InterestPercent>
+         </Relation>
+         <Relation id="N10101" RelatedObjectID="PARTY_1895988726" OriginatingObjectID="HOLDING_1895988733">
+            <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+            <RelatedObjectType tc="6">Party</RelatedObjectType>
+            <RelationRoleCode tc="32">Insured</RelationRoleCode>
+         </Relation>
+         <Relation id="N10114" RelatedObjectID="PARTY_1895988727" OriginatingObjectID="HOLDING_1895988733">
+            <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+            <RelatedObjectType tc="6">Party</RelatedObjectType>
+            <RelationRoleCode tc="31">Payer</RelationRoleCode>
+            <RelationDescription tc="0">Unknown</RelationDescription>
+         </Relation>
+         <Relation id="N10128" RelatedObjectID="PARTY_1895988730" OriginatingObjectID="HOLDING_1895988733">
+            <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+            <RelatedObjectType tc="6">Party</RelatedObjectType>
+            <RelationRoleCode tc="31">Payer</RelationRoleCode>
+            <RelationDescription tc="7">Employer</RelationDescription>
+         </Relation>
+         <Relation id="N1013C" RelatedObjectID="PARTY_1895988732" OriginatingObjectID="HOLDING_1895988733">
+            <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+            <RelatedObjectType tc="6">Party</RelatedObjectType>
+            <RelationRoleCode tc="8">Owner</RelationRoleCode>
+            <RelationDescription tc="2147483647">Other</RelationDescription>
+         </Relation>
+         <Relation id="RELATION_INFORCE_1" RelatedObjectID="HOLDING_INFORCE_1" OriginatingObjectID="PARTY_1895988726">
+            <OriginatingObjectType tc="6">Party</OriginatingObjectType>
+            <RelatedObjectType tc="4">Holding</RelatedObjectType>
+            <RelationRoleCode tc="2147483647">Other Insurance</RelationRoleCode>
+         </Relation>
+         <Relation id="RELATION_EMPLOYER_3" RelatedObjectID="EMPLOYER_1895988726" OriginatingObjectID="PARTY_1895988726">
+            <OriginatingObjectType tc="6">Party</OriginatingObjectType>
+            <RelatedObjectType tc="6">Party</RelatedObjectType>
+            <RelationRoleCode tc="7">Employer</RelationRoleCode>
+         </Relation>
+      </OLifE>
+   </TXLifeRequest>
+</TXLife>

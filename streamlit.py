@@ -1,6 +1,6 @@
+import streamlit as st
 import pandas as pd
 from lxml import etree
-import streamlit as st
 
 tree = etree.parse("./xml_example.xml")
 
